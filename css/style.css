@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    padding-bottom: 30px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+h4 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+header {
+    padding: 50px;
+    background: #445162;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+header ul {
+    padding-left: 30px;
+}
+
+header ul li {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    list-style-image: url(../img/check%20icon.png);
+}
+
+.whiteRectangle {
+    float: right;
+    width: 469px;
+    height: 214px;
+    margin-bottom: 9px;
+    background-color: #ffffff;
+}
+
+.first h2 {
+    text-align: left;
+}
+
+.about p {
+    width: 649px;
+    padding-bottom: 20px;
+}
+
+.blueRectangle {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.second {
+    background: #f5f5f5;
+}
+
+.second li {
+    width: 526px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    list-style-type: none;
+    background: url(../img/cross.jpg)no-repeat;
+    background-position: 0% 5%;
+}
+
+
+
+.screenshot {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+
+.third {
+    height: 487px;
+}
+
+.third p {
+    width: 359px;
+    height: 108px;
+}
+
+.block1 {
+    padding-bottom: 30px;
+    padding-right: 15px;
+}
+
+.fourth {
+    height: 424px;
+    background: #f5f5f5;
+}
+
+.fifth {
+    height: 656px;
+}
+
+.sexth {
+    background: #445162;
+}
+
+h3 {
+    margin-bottom: 31px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.sex {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-right: 70px;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    width: 480px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 14px 10px;
+    margin-bottom: 21px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.sex form button {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sex ul li {
+    margin-bottom: 21px;
+    list-style-type: none;
+}
+
+.social > li {
+    display: inline;
+}
+
+
+footer {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+footer span {
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
