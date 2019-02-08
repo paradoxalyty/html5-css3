@@ -70,6 +70,7 @@ h1 {
 }
 
 .header-primary ul {
+    min-width: 422px;
     padding-left: 30px;
 }
 
@@ -119,20 +120,20 @@ h1 {
 
 /*-----------------------------------------------------*/
 
-.screenshot {
-    width: 200px;
-    height: 150px;
+.screenshot {/*
+    min-width: 200px;
+    min-height: 150px;*/
+    margin: 0 15px 0 0;
     background-color: #445161;
 }
 
-.third p {
+.third figcaption {
     width: 359px;
-    height: 108px;
+    overflow: hidden;
 }
 
-.block1 {
+.padding {
     padding-bottom: 30px;
-    padding-right: 15px;
 }
 
 /*-----------------------------------------------------*/
@@ -142,11 +143,23 @@ h1 {
     background: #f5f5f5;
 }
 
+/*-----------------------------------------------------*/
+
 .fifth {
     height: 656px;
 }
 
+/*-----------------------------------------------------*/
+
+
+
+
+footer-primary {
+    background: #f5f5f5;
+}
+
 .sexth {
+    min-height: 509px;
     background: #445162;
 }
 
@@ -159,13 +172,8 @@ h3 {
     line-height: 36px;
 }
 
-.sex {
-    display: flex;
-    justify-content: center;
-}
-
-form {
-    margin-right: 70px;
+.footer-form {
+    margin: 0 70px 0 200px;
     text-align: center;
 }
 
@@ -181,11 +189,12 @@ form {
     line-height: 24px;
 }
 
-textarea {
+.footer-form textarea {
     height: 150px;
+    border-radius: 5px 5px 5px 5px;
 }
 
-.sex form button {
+.footer-form button {
     width: 140px;
     height: 40px;
     border-radius: 5px 5px 5px 5px;
@@ -205,7 +214,7 @@ textarea {
     line-height: 24px;
 }
 
-.sex ul li {
+.contacts li {
     margin-bottom: 21px;
     list-style-type: none;
 }
@@ -214,13 +223,13 @@ textarea {
     display: inline;
 }
 
+/*-----------------------------------------------------*/
 
-footer {
-    background: #f5f5f5;
-    text-align: center;
+.copyright {
+    padding: 0;
 }
 
-footer span {
+.copyright span {
     color: #445162;
     font-size: 12px;
     font-weight: 400;
