@@ -55,7 +55,7 @@ p {
 
 
 
-header {
+.header-primary {
     padding: 50px;
     background: #445162;
 }
@@ -69,11 +69,11 @@ h1 {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
 
-header ul {
+.header-primary ul {
     padding-left: 30px;
 }
 
-header ul li {
+.header-primary ul li {
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
@@ -83,13 +83,12 @@ header ul li {
 }
 
 .whiteRectangle {
-    float: right;
     width: 469px;
     height: 214px;
     margin-bottom: 9px;
     background-color: #ffffff;
 }
-
+/*-----------------------------------------------------*/
 .first h2 {
     text-align: left;
 }
@@ -118,16 +117,12 @@ header ul li {
     background-position: 0% 5%;
 }
 
-
+/*-----------------------------------------------------*/
 
 .screenshot {
     width: 200px;
     height: 150px;
     background-color: #445161;
-}
-
-.third {
-    height: 487px;
 }
 
 .third p {
@@ -139,6 +134,8 @@ header ul li {
     padding-bottom: 30px;
     padding-right: 15px;
 }
+
+/*-----------------------------------------------------*/
 
 .fourth {
     height: 424px;
