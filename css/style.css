@@ -41,6 +41,7 @@ h4 {
 }
 
 p {
+    width: 100%;
     color: #333333;
     font-size: 16px;
     font-weight: 400;
@@ -89,13 +90,18 @@ h1 {
     margin-bottom: 9px;
     background-color: #ffffff;
 }
+
 /*-----------------------------------------------------*/
+
 .first h2 {
     text-align: left;
 }
 
-.about p {
+.about{
     width: 649px;
+}
+
+.about p {
     padding-bottom: 20px;
 }
 
@@ -104,6 +110,8 @@ h1 {
     height: 245px;
     background-color: #445161;
 }
+
+/*-----------------------------------------------------*/
 
 .second {
     background: #f5f5f5;
@@ -120,9 +128,10 @@ h1 {
 
 /*-----------------------------------------------------*/
 
-.screenshot {/*
-    min-width: 200px;
-    min-height: 150px;*/
+.screenshot {
+
+    width: 200px;
+    height: 150px;
     margin: 0 15px 0 0;
     background-color: #445161;
 }
@@ -132,21 +141,60 @@ h1 {
     overflow: hidden;
 }
 
-.padding {
-    padding-bottom: 30px;
+.height30 {
+    height: 30px;
 }
 
 /*-----------------------------------------------------*/
 
 .fourth {
-    height: 424px;
     background: #f5f5f5;
 }
+
+.avatar {
+    width: 75px;
+    height: 75px;
+    margin: 0 16px 0 0;
+    border-radius: 50%;
+    background-color: #445161;
+}
+
+.avatar img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.feedback {
+    width: 436px;
+    padding: 16px 20px 16px 13px;
+    border-radius: 5px;
+    background: #ebebeb;
+    overflow: hidden;
+}
+
+.feedback p {
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+}
+
+.feedback span {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.height24 {
+    height: 24px;
+}
+
+
 
 /*-----------------------------------------------------*/
 
 .fifth {
-    height: 656px;
 }
 
 /*-----------------------------------------------------*/
