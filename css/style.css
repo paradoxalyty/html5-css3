@@ -1,6 +1,6 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -88,7 +88,7 @@ h1 {
     width: 469px;
     height: 214px;
     margin-bottom: 9px;
-    background-color: #ffffff;
+    background: #ffffff;
 }
 
 /*-----------------------------------------------------*/
@@ -97,7 +97,7 @@ h1 {
     text-align: left;
 }
 
-.about{
+.about {
     width: 649px;
 }
 
@@ -133,12 +133,12 @@ h1 {
     width: 200px;
     height: 150px;
     margin: 0 15px 0 0;
-    background-color: #445161;
+    background: #445161;
 }
 
 .third figcaption {
-    width: 359px;
     overflow: hidden;
+    width: 359px;
 }
 
 .height30 {
@@ -154,9 +154,9 @@ h1 {
 .avatar {
     width: 75px;
     height: 75px;
-    margin: 0 16px 0 0;
     border-radius: 50%;
-    background-color: #445161;
+    margin: 0 16px 0 0;
+    background: #445161;
 }
 
 .avatar img {
@@ -165,11 +165,11 @@ h1 {
 }
 
 .feedback {
+    overflow: hidden;
     width: 436px;
     padding: 16px 20px 16px 13px;
     border-radius: 5px;
     background: #ebebeb;
-    overflow: hidden;
 }
 
 .feedback p {
@@ -194,8 +194,69 @@ h1 {
 
 /*-----------------------------------------------------*/
 
-.fifth {
+.fifth {}
+
+.offer {
+    width: 300px;
+    padding: 17px 0 20px 0;
+    border-radius: 5px;
+    margin: 0 0 0 45px;
+    background: #445162;
 }
+
+.standart {
+    margin: 193px 0 0 100px;
+}
+
+.premium {
+    margin: 95px 0 0 45px;
+}
+
+.offer h4 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.offer span {
+    display: block;
+    width: 297px;
+    margin: 18px 2px;
+    background: #ffffff;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.offer ol {
+    margin: 0 0 20px 20px;
+}
+
+.offer li {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-position: inside;
+}
+
+.offer a {
+    display: block;
+    width: 260px;
+    margin: 0 20px;
+    padding: 13px 0;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #445161;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
 
 /*-----------------------------------------------------*/
 
@@ -228,8 +289,8 @@ h3 {
 .form {
     display: block;
     width: 480px;
-    border-radius: 5px 5px 5px 5px;
     padding: 14px 10px;
+    border-radius: 5px 5px 5px 5px;
     margin-bottom: 21px;
     color: #445162;
     font-size: 16px;
@@ -275,6 +336,7 @@ h3 {
 
 .copyright {
     padding: 0;
+    text-align: center;
 }
 
 .copyright span {
