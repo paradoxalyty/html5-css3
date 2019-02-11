@@ -20,7 +20,9 @@ section {
     float: right;
 }
 
-.clear {
+.clear::after {
+    display: block;
+    content: "";
     clear: both;
 }
 
@@ -142,6 +144,7 @@ h1 {
 }
 
 .height30 {
+    clear: both;
     height: 30px;
 }
 
@@ -187,6 +190,7 @@ h1 {
 }
 
 .height24 {
+    clear: both;
     height: 24px;
 }
 
