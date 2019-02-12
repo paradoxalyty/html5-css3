@@ -50,13 +50,7 @@ p {
     line-height: 24px;
 }
 
-
-
-
-
-
-
-
+/*-------------------------------------header----------*/
 
 .header-primary {
     padding: 50px;
@@ -93,7 +87,7 @@ h1 {
     background: #ffffff;
 }
 
-/*-----------------------------------------------------*/
+/*------------------------------------------about------*/
 
 .first h2 {
     text-align: left;
@@ -113,7 +107,7 @@ h1 {
     background-color: #445161;
 }
 
-/*-----------------------------------------------------*/
+/*------------------------------------------pluses-----*/
 
 .second {
     background: #f5f5f5;
@@ -128,7 +122,7 @@ h1 {
     background-position: 0% 5%;
 }
 
-/*-----------------------------------------------------*/
+/*------------------------------------screenshots------*/
 
 .screenshot {
 
@@ -148,7 +142,7 @@ h1 {
     height: 30px;
 }
 
-/*-----------------------------------------------------*/
+/*--------------------------------------------avatar---*/
 
 .fourth {
     background: #f5f5f5;
@@ -169,11 +163,19 @@ h1 {
 }
 
 .feedback {
-    overflow: hidden;
+    position: relative;
+    margin: 0 0 0 103px;
     width: 436px;
     padding: 16px 20px 16px 13px;
     border-radius: 5px;
     background: #ebebeb;
+}
+
+.feedback::before {
+    position: absolute;
+    top: 31px;
+    left: -13px;
+    content: url(../img/arrow.png);
 }
 
 .feedback p {
@@ -181,6 +183,7 @@ h1 {
     font-size: 14px;
     font-style: italic;
     line-height: 18px;
+    letter-spacing: 0.4px;
 }
 
 .feedback span {
@@ -195,11 +198,7 @@ h1 {
     height: 24px;
 }
 
-
-
-/*-----------------------------------------------------*/
-
-.fifth {}
+/*---------------------------------------------offer---*/
 
 .offer {
     width: 300px;
@@ -273,10 +272,7 @@ h1 {
     background: #445162;
 }
 
-
-/*-----------------------------------------------------*/
-
-
+/*----------------------------------------contact us---*/
 
 .sexth {
     min-height: 409px;
@@ -339,6 +335,7 @@ h1 {
     transition: 0.3s;
     transform: scale(1.1);
 }
+
 .form-button:active {
     background: #445162;
 }
@@ -467,8 +464,7 @@ h1 {
     cursor: pointer;
 }
 
-
-/*-----------------------------------------------------*/
+/*--------------------------------------------footer---*/
 
 .footer-primary {
     padding: 0;
