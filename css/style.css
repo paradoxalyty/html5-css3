@@ -155,6 +155,7 @@ h1 {
 }
 
 .avatar {
+    display: block;
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -244,7 +245,7 @@ h1 {
     list-style-position: inside;
 }
 
-.offer a {
+.offer .button-buy {
     display: block;
     width: 260px;
     height: 14px;
@@ -260,8 +261,16 @@ h1 {
     text-transform: uppercase;
 }
 
-.offer a:hover {
+.offer .button-buy:hover {
+    background: #ebebeb;
     font-size: 16px;
+    font-weight: 800;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.offer .button-buy:active {
+    background: #445162;
 }
 
 
@@ -282,12 +291,12 @@ h1 {
     font-weight: 400;
 }
 
-.sexth form {
+.contact-us {
     margin: 0 0 0 199px;
     text-align: center;
 }
 
-.form {
+.form-element {
     display: block;
     width: 480px;
     padding: 11px 10px;
@@ -299,7 +308,11 @@ h1 {
     font-weight: 400;
 }
 
-.sexth form textarea {
+.form-element:focus {
+    outline: none;
+}
+
+.contact-us textarea {
     height: 140px;
     margin-bottom: 35px;
 }
@@ -320,7 +333,14 @@ h1 {
 }
 
 .form-button:hover {
+    background: #ebebeb;
     font-size: 18px;
+    font-weight: 800;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.form-button:active {
+    background: #445162;
 }
 
 .contacts {
@@ -387,40 +407,64 @@ h1 {
 
 .social > li {
     display: inline-block;
-    overflow: hidden;
     width: 42px;
     height: 42px;
     border-radius: 50%;
 }
 
+.twitter {
+    background: url(../img/twitter.png);
+}
+
 .twitter:hover {
-    background: #08a0e9;
+    background: url(../img/twitter.png) #08a0e9;
     transition: 0.3s;
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+.facebook {
+    background: url(../img/facebook.png);
 }
 
 .facebook:hover {
-    background: #3b5998;
+    background: url(../img/facebook.png) #3b5998;
     transition: 0.3s;
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+.linkedin {
+    background: url(../img/linkedin.png);
 }
 
 .linkedin:hover {
-    background: #0077B5;
+    background: url(../img/linkedin.png) #0077B5;
     transition: 0.3s;
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+.google {
+    background: url(../img/google.png);
 }
 
 .google:hover {
-    background: #dd4d39;
+    background: url(../img/google.png) #dd4d39;
     transition: 0.3s;
     transform: scale(1.1);
+    cursor: pointer;
+}
+
+.youtube {
+    background: url(../img/youtube.png);
 }
 
 .youtube:hover {
-    background: #dd4d39;
+    background: url(../img/youtube.png) #dd4d39;
     transition: 0.3s;
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
