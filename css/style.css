@@ -125,16 +125,15 @@ h1 {
 /*------------------------------------screenshots------*/
 
 .screenshot {
-
     width: 200px;
     height: 150px;
-    margin: 0 15px 0 0;
     background: #445161;
 }
 
 .third figcaption {
     overflow: hidden;
     width: 359px;
+    margin: 0 0 0 215px;
 }
 
 .height30 {
