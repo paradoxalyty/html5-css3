@@ -237,6 +237,7 @@ h1 {
 }
 
 .offer li {
+    width: 250px;
     color: #fff;
     font-size: 14px;
     font-weight: 400;
